@@ -1,0 +1,29 @@
+.ven{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: slideRight 2s ease-in-out infinite;
+   
+}
+@keyframes slideRight{
+    0%{transform: translate(0%);}
+    25%{transform: translate(200%);}
+    50%{transform: translate(500%);}
+    100%{transform: translate(800%);}
+    150%{transform: translate(1000%);}
+    200%{transform: translate(1300%);}
+    
+
+
+    0%{background-color: lightcoral;}
+     25%{background-color: greenyellow}
+     50%{background-color: rgb(150, 128, 240);}
+      100%{background-color: orangered}
+       150%{background-color: blue}
+        200%{background-color: yellow}
+}
+ 
