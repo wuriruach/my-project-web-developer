@@ -1,0 +1,66 @@
+.anita{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orange;
+    padding: 15px;
+    font-size: 20px;
+    color: rgb(255, 47, 189); ;
+}
+.anita li{
+    display: inline;
+    margin: 20px;
+    list-style: none;
+    border: 2px solid greenyellow;
+    padding: 10px;
+   
+}
+.anita li a{
+    text-decoration: none;
+}
+.nyirol{
+    width: 100px;
+    background-color: plum;
+    height: 100vh;
+    padding: 20px;
+    color: rgba(11, 11, 1, 0.912);
+}
+.nyirol h3{
+    margin-top: 5px;
+    font-size: 15px;
+    border-bottom: 2px solid red;
+    padding-bottom: 10px;
+}
+.nyirol li{
+    list-style: none;
+    padding: 0;
+}
+.mre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-left: 120px;
+   border: 1px solid rgb(140, 0, 255) ;
+   margin-top: 20px;
+   background-color: antiquewhite;
+}
+.fom{
+    border: 2px solid rgb(0, 204, 255);
+    padding: 30px;
+    margin: 20px;
+    font-size: 15px;
+}
+.fom h3{
+color: rgb(255, 47, 189);
+font-size: 20px;
+}
+.sdb{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 120px;
+    padding: 20px;
+    border: 2px solid red;
+    margin-top: 20px;
+}
