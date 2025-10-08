@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nasha{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    box-shadow: 2PX 2PX 10PX white; 
+}
+.nasha li {
+    display: inline;
+    margin: 10px;
+    list-style: none;
+}
+.nasha li a{
+    text-decoration: none;
+    padding: 5px;
+    color: aliceblue;
+}
+body {
+    background-color: black;
+    color: white;
+}
+.akb{
+  text-align: center;
+  margin-top: 10em; 
+}
+.logo{
+    color: yellow;
+}
+#HOME{
+color: yellow;
+text-decoration: underline;
+}
+#h1{
+    color: yellow;
+}
+#h11{
+    color: yellow;
+}
+#bt{
+    color: yellow;
+}
+
+.text{
+    margin-bottom: 30px;
+}
+.btn button{
+    width: 20vw;
+    padding: 15px;
+    background-color: yellow;
+    font-size: 20px;
+    border-radius: 30px;
+    margin: 0 20px;
+    font-weight: 500;
+}
+#ict{
+    background-color: transparent;
+    border: 1px solid yellow;
+    color: yellow;
+}
+.box-container{
+    margin-top: 30px;
+    background-color: rgb(129, 129, 129);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.row img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+.row{
+    margin: 20px;
+}
+.mol{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    color: red;
+}
+.robat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid yellow;
+    font-size: medium;
+    background-color: rgb(192, 190, 188);
+}
+.sebit{
+    border:1px solid pink;
+    margin: 15px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: goldenrod;
+    color: black;
+}
+.sebit h1{
+    color: blue;
+}
+.sebit h2{
+    color: red;
+}
+button{
+    margin-top: 20px;
+    width: 10vw;
+    padding: 10px;
+    background-color:pink;
+    font-size: 15px;
+    border-radius: 20px;
+    margin: 0 7px;
+    font-weight: 300;
+
+    
+}
