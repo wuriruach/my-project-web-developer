@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+.ben{
+    flex: 1;
+    padding: 20px;
+}
+.mary{
+    width: 250px;
+    background-color: rgb(186, 9, 136);
+    color: white;
+    padding: 20px;
+    height: 100vh;
+}
+.mary h2{
+    margin-top: 0%;
+    font-size: 20px;
+    border-bottom: 2px solid rgb(55, 5, 149);
+    padding-bottom: 5px;
+}
+.mary ul {
+    list-style: none;
+    padding: 0%;
+     /* color:rgb(255, 109, 47) ; */
+}
+.mary ul li a {
+    margin: 10px 0;
+    
+}
