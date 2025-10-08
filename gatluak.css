@@ -1,0 +1,50 @@
+.mwalimu{
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 100vh;
+  color: rgba(178, 174, 174, 0.601);
+}
+.forteen{
+    background-color: rgb(124, 123, 123);
+    padding: 30px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(238, 238, 238, 0.604);
+    color: white;
+    width: 300px;
+}
+.forteen input{
+background: transparent;
+width: 200px;
+height: 25px;
+border-bottom: 1px solid blue;
+border-radius: 20px;
+border: transparent;
+}
+.forteen input::placeholder{
+    color: white;
+    padding: 10px;
+}
+input:nth-child(3){
+    border-bottom: 1px solid yellow;
+}
+input:nth-child(7){
+    border-bottom: 1px solid greenyellow;
+}
+input:nth-child(11){
+    border-bottom: 1px solid red;
+}
+input:nth-child(15){
+    border-bottom: 1px solid blue;
+}
+input:nth-child(18){
+    border: 1px solid blanchedalmond;
+    margin-left: 40px;
+    transition: 0.3s ease;
+}
+input:nth-child(18):hover{
+    transform: scale(1.2);
+    background-color:  rgb(255, 0, 0);
+}
