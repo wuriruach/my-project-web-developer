@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.schole{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 30px; */
+    background-color: pink;
+    color: yellow;
+}
+.schole{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.schole li{
+    display: inline;
+    margin: 10px;
+    list-style: none;
+}
+.schole li a{
+    text-decoration: none;
+    padding: 7px;
+    color:yellow;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.emmanuel img{
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.key{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lina{
+    margin-left: 40px;
+}
+.btn{
+    margin-top: 20px;
+}.raya{
+    color: yellow;
+}
+.crs{
+    color: yellow;
+}
+.btn button{
+    width: 20vw;
+    padding: 15px;
+    background-color: pink;
+    font-size: 20px;
+    border-radius: 25px;
+    margin: 0 15px;
+    font-weight: 400;
+    color: yellow;
+}
+#dell{
+    background-color: transparent;
+    border: 1px solid pink;
+    color: yellow;
+}
+.cav{
+    position: fixed;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; 
+}
+.lony{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid  rgb(0, 153, 255);
+}
+.ter{
+    border: 1px solid orange;
+    padding: 20px;
+    margin: 20px;
+}
+.ter h3{
+    color: yellow;
+}
+footer{
+    color: yellow;
+    padding: 20px;
+    text-align: center;
+}
+.nyagoa{
+    max-width: 800px;
+    margin: 0% auto; 
+}
+.nyagoa{
+    margin: 0%;
+    font-size: 20px;
+}
+.beaky{
+    list-style: none;
+    padding: 20px;
+    margin:0;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.beaky li a{
+    color:rgb(207, 27, 247);
+    text-decoration: none;
+    font-size: 15px;
+}
+.beaky li a:hover{
+    text-decoration: underline;
+}
+.sudan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    border: 1px solid red;
+    padding: 20px;
+}
+.lom{
+    margin: 20px;
+    font-size: 15px;
+    border: 1px solid blueviolet;
+    padding: 20px;
+    margin: 20px;
+}
+.oppo{
+    color: yellow;
+}
+.oppo{
+    color: yellow;
+}
+
