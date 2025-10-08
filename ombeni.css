@@ -1,0 +1,18 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(9, 199, 85);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: SlideRight 2s ease-in-out;
+}
+@keyframe slideRight {
+  0% {background-color blue }
+ 25% {background-color green}
+  50% {background-color red}
+   100% {background-color pink}
+    150% {background-color yellow }
+     200% {background-color orange }
+}
